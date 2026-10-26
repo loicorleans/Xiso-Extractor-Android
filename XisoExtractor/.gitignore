@@ -1,0 +1,20 @@
+# build output
+build/
+.gradle/
+*.apk
+*.aab
+
+# local config
+local.properties
+.idea/
+*.iml
+
+# signing secrets: NEVER commit these
+*.jks
+*.keystore
+keystore.properties
+
+# game data: never commit
+*.iso
+*.xiso
+*.xbe

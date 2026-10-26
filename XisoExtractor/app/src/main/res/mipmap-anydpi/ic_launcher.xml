@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 7.x (no adaptive icons): round badge with the same artwork -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <gradient
+                android:angle="315"
+                android:startColor="#1B2A6B"
+                android:endColor="#4B2FA8" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_launcher_foreground" />
+</layer-list>

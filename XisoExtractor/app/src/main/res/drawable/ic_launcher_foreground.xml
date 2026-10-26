@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- little hedgehog; everything stays inside the 66dp adaptive-icon safe zone -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#5B34B8"
+        android:pathData="M28,72 L30.78,67.03 L22.89,65.73 L29.07,60.66 L22.1,56.73 L29.65,54.08 L24.44,48.01 L32.44,48.1 L29.62,40.62 L37.1,43.44 L37.01,35.44 L43.08,40.65 L45.73,33.1 L49.66,40.07 L54.73,33.89 L56.03,41.78 L62.91,37.7 L61.44,45.56 L69.3,44.09 L65.22,50.97 L62,72z" />
+    <path
+        android:fillColor="#9468FF"
+        android:pathData="M32,70.2 L34.22,66.22 L27.91,65.18 L32.86,61.12 L27.28,57.99 L33.32,55.87 L29.15,51.01 L35.55,51.08 L33.29,45.09 L39.28,47.35 L39.21,40.95 L44.07,45.12 L46.19,39.08 L49.32,44.66 L53.38,39.71 L54.42,46.02 L59.93,42.76 L58.75,49.05 L65.04,47.87 L61.78,53.38 L59.2,70.2z" />
+    <path
+        android:fillColor="#FFE6C7"
+        android:pathData="M45,70a15,5.5 0 1,0 30,0a15,5.5 0 1,0 -30,0z" />
+    <path
+        android:fillColor="#E9BC8C"
+        android:pathData="M38.5,76a5.5,3.2 0 1,0 11,0a5.5,3.2 0 1,0 -11,0z" />
+    <path
+        android:fillColor="#E9BC8C"
+        android:pathData="M57.5,76a5.5,3.2 0 1,0 11,0a5.5,3.2 0 1,0 -11,0z" />
+    <path
+        android:fillColor="#FFE6C7"
+        android:pathData="M58,64a12,9.5 0 1,0 24,0a12,9.5 0 1,0 -24,0z" />
+    <path
+        android:fillColor="#E9BC8C"
+        android:pathData="M61.2,55.5a3.8,3.8 0 1,0 7.6,0a3.8,3.8 0 1,0 -7.6,0z" />
+    <path
+        android:fillColor="#241B4B"
+        android:pathData="M79.5,65a3,3 0 1,0 6,0a3,3 0 1,0 -6,0z" />
+    <path
+        android:fillColor="#241B4B"
+        android:pathData="M70.9,60.5a2.1,2.1 0 1,0 4.2,0a2.1,2.1 0 1,0 -4.2,0z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M73,59.8a0.7,0.7 0 1,0 1.4,0a0.7,0.7 0 1,0 -1.4,0z" />
+</vector>

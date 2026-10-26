@@ -1,0 +1,43 @@
+plugins {
+    id "com.android.application"
+}
+
+// Release signing: only when the CI provides a keystore through environment variables (see SIGNING.md)
+def ksFile = System.getenv("KEYSTORE_FILE")
+
+android {
+    namespace "com.xiso.extractor"
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.xiso.extractor"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    signingConfigs {
+        if (ksFile) {
+            release {
+                storeFile file(ksFile)
+                storePassword System.getenv("KEYSTORE_PASSWORD")
+                keyAlias System.getenv("KEY_ALIAS")
+                keyPassword System.getenv("KEY_PASSWORD")
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            // real key when provided, otherwise the debug key so the APK still installs
+            signingConfig ksFile ? signingConfigs.release : signingConfigs.debug
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
